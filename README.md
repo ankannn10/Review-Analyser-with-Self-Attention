@@ -1,2 +1,3 @@
 # Review-Analyser-with-Self-Attention
-This project implements a sentiment analysis model using transformer-based architecture inspired by the "Attention Is All You Need" paper. The main objective is to explore and learn self-attention mechanisms by replicating the core concepts of the transformer model
+This project implements a sentiment analysis model using transformer-based architecture inspired by the "Attention Is All You Need" paper. The main objective is to explore and learn self-attention mechanisms by replicating the core concepts of the transformer model. <br>
+Built using Flask for the web interface and PyTorch for model inference, the app classifies movie reviews into positive or negative sentiments while also displaying a confidence score. The model leverages self-attention to analyze the input text, demonstrating the power of transformers in natural language processing tasks.
