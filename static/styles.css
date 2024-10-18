@@ -1,0 +1,123 @@
+/* Custom global styles */
+body {
+    background-color: #f7f9fc;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1, h4 {
+    color: #333;
+}
+
+p, label, textarea {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Enhance the appearance of the navbar */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Card styling */
+.card {
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Button enhancements */
+.btn-primary {
+    background-color: #0069d9;
+    border-color: #0069d9;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0053ba;
+    border-color: #0053ba;
+}
+
+.btn-outline-primary {
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0053ba;
+    color: #fff;
+    border-color: #0053ba;
+}
+
+/* Styling for sentiment results */
+.alert {
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.blockquote {
+    background: #f1f1f1;
+    padding: 20px;
+    border-left: 8px solid #ccc;
+}
+
+.blockquote p {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Styling for confidence score */
+.confidence {
+    font-size: 16px;
+    color: #555555;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    textarea {
+        height: 130px;
+        padding: 12px;
+    }
+
+    button {
+        padding: 10px 16px;
+        font-size: 1rem;
+    }
+
+    .result p {
+        font-size: 1rem;
+    }
+
+    .confidence {
+        font-size: 14px;
+    }
+}
