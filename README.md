@@ -141,6 +141,13 @@ The model achieves an overall accuracy of **83.76%** on the test dataset, with t
 
 The disparity between short and long reviews aligns with expectations. Transformers generally excel with larger context windows, and long reviews provide more useful information for the model to make accurate predictions.
 
+#### Examples:
+![Result 1 ](https://github.com/ankannn10/Review-Analyser-with-Self-Attention/blob/main/results/result1.png?raw=true)
+![Result 2 ](https://github.com/ankannn10/Review-Analyser-with-Self-Attention/blob/main/results/result2.png?raw=true)
+![Result 3 ](https://github.com/ankannn10/Review-Analyser-with-Self-Attention/blob/main/results/result3.png?raw=true)
+![Result 4 ](https://github.com/ankannn10/Review-Analyser-with-Self-Attention/blob/main/results/result4.png?raw=true)
+![Result 5 ](https://github.com/ankannn10/Review-Analyser-with-Self-Attention/blob/main/results/result5.png?raw=true)
+
 ## Technology Stack
 
 - **Backend**:
